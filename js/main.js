@@ -18,7 +18,7 @@ $(function () {
 
         var bgUrl = 'data:image/jpeg;base64,' + item.screen_shoot;
         $('#sites').append(
-            '<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3"><div class="box"><a href="http://' + item.url + '" target="_blank" ><div class="box-header">' + item.url + '</div></a><div id="' + id + '" class="image-holder"><div id="del-' + id + '" class="delete-btn">x</div></div></div></div>'
+            '<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3"><div class="box"><a href="http://' + item.url + '" target="_blank" ><div class="box-header">' + item.url + '</div></a><div id="' + id + '" class="image-holder"><div id="del-' + id + '" class="delete-btns"><img class="closer" src="https://www.lillytrialguide.com/oncology/icons/oc_share_close.png" alt=""></div></div></div></div>'
         );
         $('#' + id).css("background-image", "url('" + bgUrl + "')");
     });

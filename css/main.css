@@ -50,6 +50,8 @@
 
 }
 
+
+
 .box-header:first-letter {
     text-transform: capitalize;
 }
@@ -93,6 +95,13 @@
     border-radius: 50%;
     border: 2px solid white;
     color: white;
+}
+
+.closer {
+    width: 50px;
+    position: relative;
+    top: 16px;
+    left: 210px
 }
 
 .btn {
